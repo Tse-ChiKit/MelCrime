@@ -1,0 +1,41 @@
+#choroplethvic path {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: 0.5px;
+}
+
+#choroplethvic path:hover {
+    fill: #ccc;
+}
+
+#choroplethvic .legend {
+    font-size: 12px;
+}
+
+
+#choroplethvic div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    padding: 2px;
+    font-size: 10px;
+    background: #FFFFE0;
+    border: 1px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+/*#choroplethvic .q0-9 { fill:rgb(247,251,255); }*/
+/*#choroplethvic .q1-9 { fill:rgb(222,235,247); }*/
+#choroplethvic .q0-9 { fill:rgb(198,219,239); }
+#choroplethvic .q1-9 { fill:rgb(158,202,225); }
+#choroplethvic .q2-9 { fill:rgb(107,174,214); }
+#choroplethvic .q3-9 { fill:rgb(66,146,198); }
+#choroplethvic .q4-9 { fill:rgb(33,113,181); }
+#choroplethvic .q5-9 { fill:rgb(8,81,156); }
+#choroplethvic .q6-9 { fill:rgb(8,48,107); }
+
+
+/*"#9ECAE1", "#6BAED6", "#4292C6", "#2171B5", "#083067"*/
+
+
